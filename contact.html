@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- Sub Header -->
+        <div class="sub-header">
+            <div class="content1">
+                <div class="row">
+                    <div class="col1">
+                        <ul class="info-list">
+                            <li><a href="#"><i class="fa-solid fa-envelope"></i></a>info@company.com</li>  
+                            <li><a href="#"><i class="fa-solid fa-map"></i></a>Sunny Isles Beach, FL 33160</li> 
+                        </ul>
+                    </div> 
+                    <div class="col2">
+                        <ul class="social-list">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                </div> 
+            </div>
+        </div>
+        </div>
+        <!-- Header area-->
+        <header class="header-area">
+            <div class="content2">
+                <div class="row2">
+                    <div class="col3">
+                        <nav class="main-nav">
+                            <a href="/index.html" class="logo">
+                                <h1>Villa</h1>
+                            </a>
+                            <a class="menu-trigger">
+                                <span></span>
+                            </a>
+                            <ul class="nav">
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/properties.html">Properties</a></li>
+                                <li><a href="/propertydetails.html">Property Details</a></li>
+                                <li><a href="/contact.html" class="text">Contact Us</a></li>
+                                <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                            </ul>
+                        </nav>
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function() {
+                                var trigger = document.querySelector('.menu-trigger');
+                                var nav = document.querySelector('.main-nav ul.nav');
+                                if (trigger && nav) {
+                                    trigger.addEventListener('click', function() {
+                                    nav.classList.toggle('active');
+                                    trigger.classList.toggle('open');
+                                    });
+                                }
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Page heading -->
+         <div class="Page-heading">
+            <img src="/assets/img/Banner/banner-06.jpg" alt="view villa" class="page-img">
+            <div class="owl-text">
+                <span class="category">
+                    <a href="#">Home</a>
+                    / CONTACT US
+                </span>
+                <h1 class="owl-title">Contact Us</h1>
+            </div>
+        </div>
+        <!-- Contact page -->
+         <div class="contact-page">
+            <div class="container">
+                <div class="row3">
+                    <div class="col4">
+                        <div class="section-heading">
+                            <h2>| Contact Us</h2>
+                            <h6>Get In Touch With Our Agents</h6>
+                        </div>
+                        <p>When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS templates on our website. If you need more information, please contact us.</p>
+                        <div class="row31">
+                            <div class="col31">
+                                <div class="item-phone">
+                                    <img src="/assets/img/phone/phone-icon.png" alt="phone" class="phone-img">
+                                    <h2>
+                                        010-020-0340
+                                        <br>
+                                        <span>Phone Number</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col32">
+                                <div class="item-mail">
+                                    <img src="/assets/img/phone/email-icon.png" alt="phone" class="mail-img">
+                                    <h2>
+                                        info@villa.com
+                                        <br>
+                                        <span>Business Email</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col5">
+                        <form id="contact-form" action="post">
+                            <div class="rowA">
+                                <div class="col51">
+                                    <fieldset>
+                                        <label for="name">Full Name</label>
+                                        <input type="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                                    </fieldset>
+                                </div>
+                                <div class="col51">
+                                    <fieldset>
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" placeholder="Your E-mail..." autocomplete="on" required>
+                                    </fieldset>
+                                </div>
+                                <div class="col51">
+                                    <fieldset>
+                                        <label for="subject">Subject</label>
+                                        <input type="subject" id="subject" placeholder="subject..." autocomplete="on" required>
+                                    </fieldset>
+                                </div>
+                                <div class="col51">
+                                    <fieldset>
+                                        <label for="massage">Massage</label>
+                                        <input type="massage" id="massage" placeholder="Your massage..." autocomplete="on" required>
+                                    </fieldset>
+                                </div>
+                                <div class="col51">
+                                    <fieldset>
+                                       <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                        <script>
+                            document.addEventListener("DOMContentLoaded" , function() {
+                                var form = document.getElementById("contact-form");
+                                    if (form) {
+                                        form.addEventListener("submit", function(e) {
+                                            e.preventDefault();
+                                                window.location.href = "contact.html";
+                                            })
+                                        }
+                                    });
+                        </script>
+                    </div>
+                    <div class="col6">
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" frameborder="0"></iframe></id>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container8">
+                <div class="col15">
+                    <p>
+                        Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design:
+                        <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                    </p>
+                </div>
+            </div>
+        </footer> 
+    </div>
+</body>
+</html>

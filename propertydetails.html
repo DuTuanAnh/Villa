@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- Sub Header -->
+        <div class="sub-header">
+            <div class="content1">
+                <div class="row">
+                    <div class="col1">
+                        <ul class="info-list">
+                            <li><a href="#"><i class="fa-solid fa-envelope"></i></a>info@company.com</li>  
+                            <li><a href="#"><i class="fa-solid fa-map"></i></a>Sunny Isles Beach, FL 33160</li> 
+                        </ul>
+                    </div> 
+                    <div class="col2">
+                        <ul class="social-list">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                </div> 
+            </div>
+        </div>
+        </div>
+        <!-- Header area-->
+        <header class="header-area">
+            <div class="content2">
+                <div class="row2">
+                    <div class="col3">
+                        <nav class="main-nav">
+                            <a href="/index.html" class="logo">
+                                <h1>Villa</h1>
+                            </a>
+                            <a class="menu-trigger">
+                                <span></span>
+                            </a>
+                            <ul class="nav">
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/properties.html">Properties</a></li>
+                                <li><a href="/propertydetails.html" class="text">Property Details</a></li>
+                                <li><a href="/contact.html">Contact Us</a></li>
+                                <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                            </ul>
+                        </nav>
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function() {
+                                var trigger = document.querySelector('.menu-trigger');
+                                var nav = document.querySelector('.main-nav ul.nav');
+                                if (trigger && nav) {
+                                    trigger.addEventListener('click', function() {
+                                    nav.classList.toggle('active');
+                                    trigger.classList.toggle('open');
+                                    });
+                                }
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Page heading -->
+         <div class="Page-heading">
+            <img src="/assets/img/Banner/banner-06.jpg" alt="view villa" class="page-img">
+            <div class="owl-text">
+                <span class="category">
+                    <a href="#">Home</a>
+                    / SINGLE PROPERTY
+                </span>
+                <h1 class="owl-title">Single Property</h1>
+            </div>
+        </div>
+        <!-- Single Property -->
+        <div class="single-property">
+            <div class="container">
+                <div class="row3">
+                    <div class="col4">
+                        <div class="main-image">
+                            <img src="/assets/img/single-property/single-property1.jpg" alt="" class="single-property1-img">
+                        </div>
+                        <div class="main-content">
+                            <span class="category">Appartment</span>
+                            <h4>24 New Street Miami, OR 24560</h4>
+                            <p>Get <strong>the best villa agency</strong> HTML CSS Bootstrap Template for your company website. TemplateMo provides you the <a href="https://www.google.com/search?q=best+free+css+templates" target="_blank">best free CSS templates</a> in the world. Please tell your friends about it. Thank you. Cloud bread kogi bitters pitchfork shoreditch tumblr yr succulents single-origin coffee schlitz enamel pin you probably haven't heard of them ugh hella.
+            
+                            <br><br>When you look for free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Digital Marketing, TemplateMo Corporate Layouts, etc. Master cleanse +1 intelligentsia swag post-ironic, slow-carb chambray knausgaard PBR&amp;B DSA poutine neutra cardigan hoodie pop-up.</p>
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="toggle-button">Best useful links ?</h2>
+                                <div class="toggle-content" style="display: inline-block;">
+                                    Dolor
+                                    <strong>almesit amet,</strong>
+                                    consectetur adipiscing elit, sed doesn't eiusmod tempor kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice, chillwave vexillologist incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function () {
+                                        document.getElementById("toggle-button").addEventListener("click", function () {
+                                            const content = document.querySelector(".toggle-content");
+                                            const header = document.getElementById("toggle-button");
+
+                                            if (content.style.display === "none") {
+                                                content.style.display = "block";
+                                                header.classList.add("active");
+                                            } else {
+                                                content.style.display = "none";
+                                                header.classList.remove("active");
+                                            }
+                                        });
+                                        });
+                                </script>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="toggle-button1">How does this work ?</h2>
+                                <div class="toggle-content1" style="display: none;">
+                                    Dolor
+                                    <strong>almesit amet,</strong>
+                                    consectetur adipiscing elit, sed doesn't eiusmod tempor kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice, chillwave vexillologist incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function () {
+                                        document.getElementById("toggle-button1").addEventListener("click", function () {
+                                            const content = document.querySelector(".toggle-content1");
+                                            const header = document.getElementById("toggle-button1");
+
+                                            if (content.style.display === "none") {
+                                                content.style.display = "block";
+                                                header.classList.add("active");
+                                            } else {
+                                                content.style.display = "none";
+                                                header.classList.remove("active");
+                                            }
+                                        });
+                                        });
+                                  </script>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="toggle-button2">Why is villa the best ?</h2>
+                                <div class="toggle-content2" style="display: none;">
+                                    Dolor
+                                    <strong>almesit amet,</strong>
+                                    consectetur adipiscing elit, sed doesn't eiusmod tempor kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice, chillwave vexillologist incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </div>
+                                <script>
+                                    document.addEventListener("DOMContentLoaded", function () {
+                                        document.getElementById("toggle-button2").addEventListener("click", function () {
+                                            const content = document.querySelector(".toggle-content2");
+                                            const header = document.getElementById("toggle-button2");
+
+                                            if (content.style.display === "none") {
+                                                content.style.display = "block";
+                                                header.classList.add("active");
+                                            } else {
+                                                content.style.display = "none";
+                                                header.classList.remove("active");
+                                            }
+                                        });
+                                        });
+                                  </script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col5">
+                        <div class="info-table">
+                            <ul>
+                                <li>
+                                    <img src="/assets/img/info/info1.png" alt="table" class="list-table">
+                                    <h4>250 m2
+                                        <br>
+                                        <span>Total Flat Space</span>
+                                    </h4>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/info/info2.png" alt="table" class="list-table">
+                                    <h4>contract
+                                        <br>
+                                        <span>Contract Ready</span>
+                                    </h4>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/info/info3.png" alt="table" class="list-table">
+                                    <h4>Payment
+                                        <br>
+                                        <span>Payment Process</span>
+                                    </h4>
+                                </li>
+                                <li>
+                                    <img src="/assets/img/info/info4.png" alt="table" class="list-table">
+                                    <h4>Safety
+                                        <br>
+                                        <span>24/7 Under Control</span>
+                                    </h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Best deal -->
+        <div class="best-deal">
+            <div class="container4">
+                <div class="row7">
+                    <div class="col10">
+                        <div class="deal-text">
+                            <h2>| Best Deal</h2>
+                            <h6>Find Your Best Deal Right Now!</h6>
+                        </div>
+                    </div>
+                    <div class="col11">
+                        <div class="tabs-content">
+                            <div class="row71">
+                                <div class="nav-wrapper1">
+                                    <ul class="nav-tabs">
+                                        <li class="nav-item">
+                                            <button class="nav-link">Appartment</button>
+                                        </li>
+                                        <li class="nav-item1">
+                                            <button class="nav-link1">Villa House</button>
+                                        </li>
+                                        <li class="nav-item1">
+                                            <button class="nav-link1">Penthouse</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane">
+                                        <div class="row72">
+                                            <div class="colA">
+                                                <div class="info-table1">
+                                                    <ul>
+                                                        <li>
+                                                            Total Flat Space
+                                                            <span>540 m2</span>
+                                                        </li>
+                                                        <li>
+                                                            Floor number
+                                                            <span>3</span>
+                                                        </li>
+                                                        <li>
+                                                            Number of rooms
+                                                            <span>8</span>
+                                                        </li>
+                                                        <li>
+                                                            Parking Available
+                                                            <span>Yes</span>
+                                                        </li>
+                                                        <li>
+                                                            Payment Process
+                                                            <span>Bank</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="colB">
+                                                <img src="/assets/img/Banner/banner-04.jpg" alt="deal" class="deal-img">
+                                            </div>
+                                            <div class="colC">
+                                                <h4>Extra Info About Property</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum
+                                                    suspendisse. 
+                                                    <br>
+                                                    <br>
+                                                    When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, 
+                                                    TemplateMo One Page Layouts, etc.
+                                                </p>
+                                                <div class="icon-button">
+                                                    <a href="/propertydetails.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="container8">
+                <div class="col15">
+                    <p>
+                        Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design:
+                        <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                    </p>
+                </div>
+            </div>
+        </footer> 
+    </div>
+</body>
+</html>
